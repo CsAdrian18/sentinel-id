@@ -1,0 +1,35 @@
+# Secrets & Environment Variables (NEVER COMMIT)
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+*.pfx
+client_secret*.json
+
+# Audit logs, real tenant data & generated reports
+logs/
+reports/
+*tenant_data*
+*real_data*
+*.log
+
+# Python bytecode & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.pytest_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
